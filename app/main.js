@@ -18,7 +18,7 @@ var {Route, DefaultRoute} = Router;
 var routes = (
   <Route handler={App}>
     <DefaultRoute handler={Home}/>
-    <Route path="help" handler={Help}/>
+    <Route path='help' handler={Help}/>
   </Route>
 );
 

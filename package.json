@@ -7,7 +7,8 @@
     "build": "TARGET=build webpack",
     "start": "TARGET=dev webpack-dev-server --devtool eval-source --progress --colors --hot --inline --history-api-fallback",
     "prepublish": "npm run build",
-    "pretest": "eslint -c .eslintrc --ext .js --ext .jsx src/",
+    "pretest": "npm run lint",
+    "lint": "eslint -c .eslintrc --ext .js --ext .jsx app/",
     "test:jasmine": "jasmine JASMINE_CONFIG_PATH=test/server/support/jasmine.json",
     "test:karma": "./node_modules/karma/bin/karma start ./karma.conf.js",
     "test": "npm run test:jasmine && npm run test:karma"
