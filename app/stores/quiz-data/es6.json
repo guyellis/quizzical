@@ -3,10 +3,10 @@
   "questions": [
 
     {
-    "question": {
-      "text": "Which of the following are true for the 'const' declaration?"
-    },
-    "answers": [{
+      "question": {
+        "text": "Which of the following are true for the 'const' declaration?"
+      },
+      "answers": [{
         "text": "It creates a read-only reference to a value.",
         "correct": true
       }, {
