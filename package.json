@@ -29,7 +29,7 @@
   "dependencies": {
     "alt": "~0.17.1",
     "bootstrap": "~3.3.5",
-    "jquery": "~2.1.4",
+    "jquery": "3.x",
     "lodash": "~3.10.0",
     "numeral": "~1.5.3",
     "react": "~0.13.3",
