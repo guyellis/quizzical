@@ -4,7 +4,9 @@
   "description": "Test yourself on several quizzes",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "lint": "eslint --ext .js --ext .jsx . --max-warnings 0",
+    "lintfix": "eslint --ext .js --ext .jsx . --fix",
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -19,8 +21,20 @@
     "url": "https://github.com/guyellis/quizzical/issues"
   },
   "homepage": "https://github.com/guyellis/quizzical",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "check-node-version": "3.2.0",
+    "concurrently": "4.0.1",
+    "eslint": "5.5.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jest": "21.22.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.1",
+    "eslint-plugin-security": "1.4.0",
+    "jest": "23.6.0",
+    "nodemon": "1.18.4",
+    "pre-commit": "1.2.2",
+    "typescript": "3.0.3"
   }
 }
