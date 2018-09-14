@@ -1,5 +1,5 @@
 # Contributing to Quizzical
 
-Ping me at [@wildfiction](https://twitter.com/wildfiction) if you have questions.
+First create an issue and check that this is a good change.
 
-Fork the repo and submit a Pull Request if you have improvements or bug fixes.
+Then fork the repo and submit a Pull Request if you have improvements or bug fixes.
